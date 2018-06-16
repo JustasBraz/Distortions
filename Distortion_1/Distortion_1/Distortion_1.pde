@@ -29,5 +29,4 @@ void draw()
   for (int i = 0; i <  myImage.width/1; i+=1) {
     copy(myPhoto, i, 0, 1, height, i, (int) (cos((millis()+i*speed2_*8)*speed1_)*distortion_*2), 1, height);
   }
- 
 }
